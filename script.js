@@ -11,8 +11,8 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 let songItemPlay = Array.from(document.getElementsByClassName('songItemPlay'));
 let darkMode = document.getElementById('dark');
 let songs = [
-    { songName: "Meri jan", filePath: "songs/1.mp3", coverPath: "covers/1.jpg" },
-    { songName: "song hai", filePath: "songs/2.mp3", coverPath: "covers/2.jpg" },
+    { songName: "udja kale kavan", filePath: "songs/1.mp3", coverPath: "covers/1.jpg" },
+    { songName: "Hoshwalo ko khabar kya", filePath: "songs/2.mp3", coverPath: "covers/2.jpg" },
     { songName: "vibe wala song", filePath: "songs/3.mp3", coverPath: "covers/3.jpg" },
     { songName: "Ishq wala love", filePath: "songs/4.mp3", coverPath: "covers/4.jpg" },
     { songName: "Asaan nhi yahaan", filePath: "songs/5.mp3", coverPath: "covers/5.jpg" },
@@ -20,7 +20,7 @@ let songs = [
     { songName: "Teri meri kahani", filePath: "songs/7.mp3", coverPath: "covers/7.jpg" },
     { songName: "Bones by Imagine Dragons", filePath: "songs/8.mp3", coverPath: "covers/8.jpg" },
     { songName: "It ain't me by Selena Gomez", filePath: "songs/9.mp3", coverPath: "covers/9.jpg" },
-    { songName: "Bhau mera", filePath: "songs/10.mp3", coverPath: "covers/10.jpg" }
+    { songName: "chikni chameli", filePath: "songs/10.mp3", coverPath: "covers/10.jpg" }
 ]
 
 songItems.forEach((element, i) => {
